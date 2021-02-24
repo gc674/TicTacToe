@@ -72,9 +72,9 @@ namespace TicTacToe
         {
             if ((Xor0.Contains(Button1.Text, StringComparer.OrdinalIgnoreCase)) && Button1.Text == Button2.Text && Button2.Text == Button3.Text)
             {
-                Box1.BackColor = Color.LightBlue;
-                Box2.BackColor = Color.LightBlue;
-                Box3.BackColor = Color.LightBlue;
+                Button1.BackColor = Color.LightBlue;
+                Button2.BackColor = Color.LightBlue;
+                Button3.BackColor = Color.LightBlue;
                 return true;
             }
             return false;
